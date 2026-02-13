@@ -22,7 +22,6 @@ En este código únicamente se utilizan vértices y aristas, sin caras, para man
 Para este ejemplo se generará un hexágono, que es un polígono de 6 lados, utilizando un radio definido para determinar su tamaño.
 ## Explicación del Código
 1️⃣ Importación de módulos
-Explicación
 
 Se importan los módulos necesarios:
 
@@ -34,4 +33,20 @@ Código comentado
 ```Python
 import bpy      # Módulo principal para interactuar con Blender
 import math     # Módulo matemático para usar funciones trigonométricas
+```
+2️⃣ Definición de la función
+
+Se define una función llamada crear_poligono_2d que recibe tres parámetros:
+
+nombre → Nombre del objeto
+
+lados → Número de lados del polígono
+
+radio → Distancia del centro a cada vértice
+
+Esta función será la encargada de generar el polígono.
+
+Código comentado
+```Python
+def crear_poligono_2d(nombre, lados, radio):
 ```
