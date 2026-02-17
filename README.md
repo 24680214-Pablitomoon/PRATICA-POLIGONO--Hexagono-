@@ -159,7 +159,7 @@ La figura estará compuesta únicamente por:
 6 aristas
 Sin caras (estructura 2D)
 
-## 📌 Código Completo Final 
+## Código Completo Final 
 ```Python
 import bpy
 import math
